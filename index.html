@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jeu Memory</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Écran d'accueil -->
+      <div id="welcome-screen" class="screen">
+        <img src="src/Jeu Memory/logo.png" alt="Logo" />
+        <button id="start-button" class="btn">Jouer</button>
+      </div>
+
+      <!-- Écran de jeu -->
+      <div id="game-screen" class="screen hidden">
+        <div id="cards-grid" class="cards-grid">
+          <!-- Les cartes seront générées ici par JavaScript -->
+        </div>
+      </div>
+
+      <!-- Écran de victoire -->
+      <div id="win-screen" class="screen hidden">
+        <img src="src/Jeu Memory/win.png" alt="Victoire" />
+        <h1 class="win-title">Félicitations !</h1>
+        <button id="restart-button" class="btn">Rejouer</button>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
