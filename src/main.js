@@ -7,14 +7,14 @@ let canFlip = true;
 
 // Images des cartes (vraies images)
 const cardImages = [
-  "src/Jeu Memory/animals/cat.jpeg",
-  "src/Jeu Memory/animals/dog.jpeg",
-  "src/Jeu Memory/animals/fox.jpeg",
-  "src/Jeu Memory/animals/panda.jpeg",
-  "src/Jeu Memory/animals/penguin.jpeg",
-  "src/Jeu Memory/animals/tiger.jpeg",
-  "src/Jeu Memory/animals/koala.jpeg",
-  "src/Jeu Memory/animals/owl.jpeg",
+  "/animals/cat.jpeg",
+  "/animals/dog.jpeg",
+  "/animals/fox.jpeg",
+  "/animals/panda.jpeg",
+  "/animals/penguin.jpeg",
+  "/animals/tiger.jpeg",
+  "/animals/koala.jpeg",
+  "/animals/owl.jpeg",
 ];
 
 // Éléments DOM
