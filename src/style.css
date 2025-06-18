@@ -155,14 +155,15 @@ body {
 /* Responsive */
 @media (max-width: 768px) {
   .cards-grid {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    max-width: 400px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    max-width: 350px;
+    padding: 15px;
   }
 
   .card {
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
   }
 
   .screen img {
@@ -181,16 +182,40 @@ body {
 
 @media (max-width: 480px) {
   .cards-grid {
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 250px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px;
+    max-width: 280px;
+    padding: 10px;
   }
 
   .card {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
   }
 
   .card-back {
-    font-size: 1.5em;
+    font-size: 1.2em;
+  }
+
+  .card-front img {
+    width: 85%;
+    height: 85%;
+  }
+}
+
+@media (max-width: 360px) {
+  .cards-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    max-width: 240px;
+  }
+
+  .card {
+    width: 50px;
+    height: 50px;
+  }
+
+  .card-back {
+    font-size: 1em;
   }
 }
